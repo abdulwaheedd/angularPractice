@@ -7,5 +7,8 @@
     <input type="text" [value]="name" />
     <p>3. Event Binding</p>
     <button (click)="onSave()">Click Event</button>
+    <p>4. Two Way Data Binding</p>
+    <input type="text" [(ngModel)]="random" />
+    <p>{{ random }}</p>
   </div>
 </div>
