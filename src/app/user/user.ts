@@ -9,4 +9,7 @@ import { Component } from '@angular/core';
 export class User {
   name: string = 'Ahmad';
   email: string = 'Ahmad@gmail.com';
+  onSave() {
+    alert('User saved successfully!');
+  }
 }

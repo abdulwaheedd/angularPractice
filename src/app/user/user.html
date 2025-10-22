@@ -1,8 +1,11 @@
 <div align="center">
   <h4>One way data binding</h4>
   <div>
-    <p>Interpolation</p>
+    <p>1.Interpolation</p>
     <p>Name: {{ name }} Email: {{ email }}</p>
+    <p>2. Property Binding</p>
     <input type="text" [value]="name" />
+    <p>3. Event Binding</p>
+    <button (click)="onSave()">Click Event</button>
   </div>
 </div>
