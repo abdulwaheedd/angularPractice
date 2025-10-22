@@ -4,8 +4,9 @@ import { Component } from '@angular/core';
   selector: 'app-user',
   imports: [],
   templateUrl: './user.html',
-  styleUrl: './user.scss'
+  styleUrl: './user.scss',
 })
 export class User {
-
+  name: string = 'Ahmad';
+  email: string = 'Ahmad@gmail.com';
 }
